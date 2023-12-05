@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color:#0f1121;
+}
+
+.header {
+  display: flex;
+  gap: 65px;
+  justify-content: stretch;
+  margin-top: 45px;
+  margin-right: 40px;
+  margin-left: 15px;
+
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.company {
+  display: flex;
+  display: block;
+  color: yellow;
+  font-weight: 200;
+  text-align: center;
+  line-height: 1;
+}
+.company-span {
+  font-weight: 150;
+  font-size: 20px;
+  line-height: 1.5;
+  color: rgba(255, 89, 0, 0.958);
+}
+
+.links ul {
+  list-style: none;
+  display: flex;
+  gap: 45px;
+  
+}
+
+.links li {
+  color: white;
+ text-decoration: none;
+ font-size: 20px;
+ border-radius: 50px;
+}
+.links a {
+background-color: chocolate;
+border-radius: 15px;
+padding: 3px 10px;
+}
+
+
+  h1 {
+
+    color: white;
+    font-size: 28px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+
+  h1:hover{
+    color: rgb(255, 255, 255, 1.2);
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  p {
+    display: flex;
+    align-content: center;
+    text-justify:newspaper;
+    text-align: center;
+    color: white;
+   font-size: 20px;
+   margin: 25px 35px;
+   padding: 50px; 
+   background-color: #454400;
+   border-width: 50px;
+  }   
+
+  
+  .landing-image { 
+    display: flex;
+    justify-content:center; 
+    align-items: center; 
+    margin-top: 35px; 
+    margin-bottom: 30px ;
+  }
+
+.landing-image-round{
+border-radius: 10px; 
+overflow: hidden;
+width:550px; 
+height:550px;  
+}
+
+
+
+          
+.centered-image-container { display: flex;
+justify-content:center; 
+align-items: center; 
+}
+   
+  .rounded-image {
+   border-radius: 100px; 
+  margin-top: 70px; 
+  margin-bottom: 30px ;
+   overflow: hidden;
+   width:250px; 
+   height:250px;  
+                }
+
+h2 {
+   color: white;
+   text-align:center;  
+   font-size: 27px; 
+   margin: 0px;
+   margin-bottom:20px; 
+   padding-top: 10px;
+  }
+
+.centered-line-container { display: flex; 
+justify-content: center; 
+align-items: center;
+}
+  
+.styled-line { border: none; 
+height: 1px;
+background-color: #048ec5;
+margin:0;
+padding:3px;
+width: 45%; 
+         }
+         
+    ul {
+      display: flex;
+     justify-content: center;
+      align-items:center;           
+      flex-direction: row;
+      gap: 10px; 
+      list-style-type: none;
+       }
+
+  li {
+   font-size: 45px;
+  }
+
+  a {
+    color: var(--text);
+   text-decoration: none;
+  }
+  
+  
+.footer { 
+margin-top: 20px;
+text-align: center;
+margin-bottom: 55px;
+ }
+
